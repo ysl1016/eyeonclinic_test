@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비급여 비용안내 | EYEON Clinic</title>
+        
+    <!-- Google Fonts: Inter, Manrope, Noto Sans KR, and Nanum Myeongjo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@300;400;500;600;700&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+        
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/dist/output.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        .prose ul > li::before {
+            background-color: var(--emerald-teal);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-[50vh] md:h-[60vh] flex items-center justify-center text-center text-white overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="https://images.unsplash.com/photo-1516414447565-b14be0adf13e?q=80&w=2832&auto=format&fit=crop" 
+                     alt="계산기와 펜이 놓인 깔끔한 책상" 
+                     class="w-full h-full object-cover"
+                     onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/0A2342/ffffff?text=Pricing';">
+                <div class="absolute inset-0 bg-black/40"></div>
+            </div>
+            <div class="relative z-10 px-6 reveal">
+                <h1 class="text-4xl md:text-6xl font-bold tracking-tighter leading-tight text-white">
+                    비급여 비용안내
+                </h1>
+                <p class="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-300">
+                    이연의원은 모든 비급여 항목의 비용을 투명하게 공개하여, 신뢰를 바탕으로 진료합니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- Pricing Content Section -->
+        <section class="py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-white p-8 md:p-12 rounded-2xl shadow-lg reveal">
+                        <div class="prose max-w-none text-deep-navy opacity-90">
+                            <p>이연의원은 건강보험심사평가원의 비급여 진료비용 등 공개항목에 근거하여 비급여 항목의 비용을 아래와 같이 게시합니다. (보건복지부 고시 제2023-168호, '23.9.4. 시행)</p>
+                            <h3 class="font-semibold mt-6">제증명서 발급 시 참고사항</h3>
+                            <p>제증명서 중 진료확인서 및 통원확인서는 진료날짜, 진단명만 기입되며 내용 및 소견은 들어가지 않습니다. 진료내용 및 소견이 필요한 경우 일반진단서 또는 소견서를 발급받아야 합니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 space-y-12">
+                        <!-- 초음파검사 -->
+                        <div class="reveal">
+                            <h2 class="text-2xl font-bold text-deep-navy border-b border-gray-200 pb-4 mb-6 flex items-center"><i class="fas fa-wave-square mr-3 text-emerald-teal"></i>초음파검사</h2>
+                            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                                <table class="min-w-full text-sm">
+                                    <thead class="bg-gray-50 text-left text-gray-500">
+                                        <tr>
+                                            <th class="p-4 font-medium">코드</th>
+                                            <th class="p-4 font-medium">분류 및 명칭</th>
+                                            <th class="p-4 font-medium text-right">비용 (원)</th>
+                                            <th class="p-4 font-medium text-right">비고</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-gray-100">
+                                        <tr class="hover:bg-gray-50"><td class="p-4">EB414</td><td class="p-4">갑상선초음파</td><td class="p-4 text-right font-semibold text-emerald-teal">75,000</td><td class="p-4 text-right"></td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">EB415</td><td class="p-4">경부초음파</td><td class="p-4 text-right font-semibold text-emerald-teal">75,000</td><td class="p-4 text-right"></td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">EB461</td><td class="p-4">근골격초음파(손)</td><td class="p-4 text-right font-semibold text-emerald-teal">45,000</td><td class="p-4 text-right"></td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">EB464</td><td class="p-4">근골격초음파(무릎)</td><td class="p-4 text-right font-semibold text-emerald-teal">65,000</td><td class="p-4 text-right"></td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">EB470</td><td class="p-4">근골격초음파</td><td class="p-4 text-right font-semibold text-emerald-teal">100,000</td><td class="p-4 text-right"></td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">EB471</td><td class="p-4">근골격초음파(정밀)</td><td class="p-4 text-right font-semibold text-emerald-teal">150,000</td><td class="p-4 text-right"></td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">EB482</td><td class="p-4">경동맥초음파</td><td class="p-4 text-right font-semibold text-emerald-teal">56,000</td><td class="p-4 text-right"></td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">EB401</td><td class="p-4">기본초음파 I</td><td class="p-4 text-right font-semibold text-emerald-teal">50,000</td><td class="p-4 text-right"></td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">EB402</td><td class="p-4">기본초음파 II</td><td class="p-4 text-right font-semibold text-emerald-teal">96,000</td><td class="p-4 text-right"></td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- 이학요법료 -->
+                        <div class="reveal">
+                            <h2 class="text-2xl font-bold text-deep-navy border-b border-gray-200 pb-4 mb-6 flex items-center"><i class="fas fa-running mr-3 text-emerald-teal"></i>이학요법료</h2>
+                            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                                <table class="min-w-full text-sm">
+                                    <thead class="bg-gray-50 text-left text-gray-500">
+                                        <tr>
+                                            <th class="p-4 font-medium">코드</th>
+                                            <th class="p-4 font-medium">분류 및 명칭</th>
+                                            <th class="p-4 font-medium text-right">비용 (원)</th>
+                                            <th class="p-4 font-medium text-right">비고</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-gray-100">
+                                        <tr class="hover:bg-gray-50"><td class="p-4">MZ007</td><td class="p-4">신장분사치료</td><td class="p-4 text-right font-semibold text-emerald-teal">48,000</td><td class="p-4 text-right">1부위</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">MX122</td><td class="p-4">도수치료</td><td class="p-4 text-right font-semibold text-emerald-teal">96,000</td><td class="p-4 text-right">전문의</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">MY142</td><td class="p-4">프롤로테라피(사지)</td><td class="p-4 text-right font-semibold text-emerald-teal">120,000</td><td class="p-4 text-right">1부위</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">MY142</td><td class="p-4">프롤로테라피(일반)</td><td class="p-4 text-right font-semibold text-emerald-teal">96,000</td><td class="p-4 text-right">1부위</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">MY143</td><td class="p-4">프롤로테라피(척추)</td><td class="p-4 text-right font-semibold text-emerald-teal">200,000</td><td class="p-4 text-right">1부위</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">MZ001</td><td class="p-4">FIMS(정밀)</td><td class="p-4 text-right font-semibold text-emerald-teal">300,000</td><td class="p-4 text-right">1부위</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">MZ001</td><td class="p-4">FIMS</td><td class="p-4 text-right font-semibold text-emerald-teal">150,000</td><td class="p-4 text-right">1부위</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- 처치 및 수술료 -->
+                        <div class="reveal">
+                            <h2 class="text-2xl font-bold text-deep-navy border-b border-gray-200 pb-4 mb-6 flex items-center"><i class="fas fa-band-aid mr-3 text-emerald-teal"></i>처치 및 수술료</h2>
+                            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                                <table class="min-w-full text-sm">
+                                    <thead class="bg-gray-50 text-left text-gray-500">
+                                        <tr>
+                                            <th class="p-4 font-medium">코드</th>
+                                            <th class="p-4 font-medium">분류 및 명칭</th>
+                                            <th class="p-4 font-medium text-right">비용 (원)</th>
+                                            <th class="p-4 font-medium text-right">비고</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-gray-100">
+                                        <tr class="hover:bg-gray-50"><td class="p-4">SZ035</td><td class="p-4">손발톱무좀(레이저)</td><td class="p-4 text-right font-semibold text-emerald-teal">56,000</td><td class="p-4 text-right">시행안함</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">SZ084</td><td class="p-4">체외충격파(사지)</td><td class="p-4 text-right font-semibold text-emerald-teal">96,000</td><td class="p-4 text-right">1부위</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">SZ084</td><td class="p-4">체외충격파(척추)</td><td class="p-4 text-right font-semibold text-emerald-teal">96,000</td><td class="p-4 text-right">1부위</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- 예방접종 -->
+                        <div class="reveal">
+                            <h2 class="text-2xl font-bold text-deep-navy border-b border-gray-200 pb-4 mb-6 flex items-center"><i class="fas fa-syringe mr-3 text-emerald-teal"></i>예방접종</h2>
+                            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                                <table class="min-w-full text-sm">
+                                    <thead class="bg-gray-50 text-left text-gray-500">
+                                        <tr>
+                                            <th class="p-4 font-medium">코드</th>
+                                            <th class="p-4 font-medium">분류 및 명칭</th>
+                                            <th class="p-4 font-medium text-right">비용 (원)</th>
+                                            <th class="p-4 font-medium text-right">비고</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-gray-100">
+                                        <tr class="hover:bg-gray-50"><td class="p-4">3Z5200301</td><td class="p-4">대상포진예방접종</td><td class="p-4 text-right font-semibold text-emerald-teal">150,000</td><td class="p-4 text-right">예약필수</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- 제증명수수료 -->
+                        <div class="reveal">
+                            <h2 class="text-2xl font-bold text-deep-navy border-b border-gray-200 pb-4 mb-6 flex items-center"><i class="fas fa-file-alt mr-3 text-emerald-teal"></i>제증명수수료</h2>
+                            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                                <table class="min-w-full text-sm">
+                                     <thead class="bg-gray-50 text-left text-gray-500">
+                                        <tr>
+                                            <th class="p-4 font-medium">코드</th>
+                                            <th class="p-4 font-medium">분류 및 명칭</th>
+                                            <th class="p-4 font-medium text-right">비용 (원)</th>
+                                            <th class="p-4 font-medium text-right">비고</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-gray-100">
+                                        <tr class="hover:bg-gray-50"><td class="p-4">PDZ01</td><td class="p-4">일반진단서 및 소견서</td><td class="p-4 text-right font-semibold text-emerald-teal">20,000</td><td class="p-4 text-right">1매</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">PDE01</td><td class="p-4">일반진단서(영문)</td><td class="p-4 text-right font-semibold text-emerald-teal">20,000</td><td class="p-4 text-right">1매</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">PDZ09</td><td class="p-4">통원/진료확인서</td><td class="p-4 text-right font-semibold text-emerald-teal">3,000</td><td class="p-4 text-right">1매</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">PDZ01</td><td class="p-4">채용신체검사서(공무원)</td><td class="p-4 text-right font-semibold text-emerald-teal">40,000</td><td class="p-4 text-right">1매</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">PDZ01</td><td class="p-4">채용신체검사서(일반)</td><td class="p-4 text-right font-semibold text-emerald-teal">30,000</td><td class="p-4 text-right">1매</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">PDZ11</td><td class="p-4">진료기록사본(1~5매)</td><td class="p-4 text-right font-semibold text-emerald-teal">1,000</td><td class="p-4 text-right">1매당</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">PDZ11</td><td class="p-4">진료기록사본(6매 이상)</td><td class="p-4 text-right font-semibold text-emerald-teal">100</td><td class="p-4 text-right">1매당</td></tr>
+                                        <tr class="hover:bg-gray-50"><td class="p-4">PDZ16</td><td class="p-4">제증명서 사본</td><td class="p-4 text-right font-semibold text-emerald-teal">1,000</td><td class="p-4 text-right">1매</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Floating Action Buttons Placeholder -->
+    <div id="floating-buttons-placeholder"></div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

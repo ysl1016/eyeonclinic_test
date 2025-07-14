@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>의료진 소개 | EYEON Clinic</title>
+        
+    <!-- Google Fonts: Inter, Manrope, Noto Sans KR, and Nanum Myeongjo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@300;400;500;600;700&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+        
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/dist/output.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        .prose ul > li::before {
+            background-color: var(--emerald-teal);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-[50vh] md:h-[60vh] flex items-center justify-center text-center text-white overflow-hidden">
+                <div class="absolute inset-0">
+                    <img src="../images/doctor.jpg" 
+                         alt="의사의 청진기" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-black/50"></div> 
+                </div>
+            <div class="relative z-10 px-6 reveal">
+                <h1 class="text-4xl md:text-6xl font-bold tracking-tighter leading-tight text-white">
+                    의료진 소개
+                </h1>
+                <p class="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-300">
+                    풍부한 경험과 끊임없는 연구를 통해 최상의 의료 서비스를 제공합니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- Doctor Profile Section -->
+        <section class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6">
+                 <div class="grid lg:grid-cols-5 gap-12 items-start">
+                    <div class="lg:col-span-2 reveal">
+                        <img src="https://avatars.githubusercontent.com/u/10897863?v=4" 
+                             alt="이용승 원장 프로필 이미지" 
+                             class="rounded-2xl shadow-lg w-full"
+                             onerror="this.onerror=null;this.src='https://placehold.co/800x1000/cccccc/333333?text=Dr.+Lee';">
+                    </div>
+                    <div class="lg:col-span-3 reveal">
+                        <p class="text-lg text-emerald-teal font-semibold">가정의학과 전문의 / 대표원장</p>
+                        <h2 class="font-eng text-4xl md:text-5xl font-bold tracking-tighter text-deep-navy mt-1">
+                            이 용 승
+                        </h2>
+                        <div class="mt-8 prose prose-lg max-w-none text-deep-navy opacity-90">
+                            <p>
+                                한양대학교 의과대학을 졸업하고 분당차병원에서 가정의학과 전문의 과정을 수료했습니다. 이후 CHA 의과학대학교 강남차병원 전임의, 분당차병원 대체의학대학원 석사 과정을 거치며 통합의학에 대한 깊이를 더했습니다. 청담 린클리닉 원장, 반포 호두의원 대표원장을 역임하며 풍부한 임상 경험을 쌓았으며, 현재는 이연의원에서 환자 한 분 한 분에게 최적화된 안티에이징 솔루션을 제공하고 있습니다.
+                            </p>
+                            
+                            <div class="mt-10 pt-8 border-t border-gray-200">
+                                <h4 class="font-bold text-emerald-teal mb-4 flex items-center">
+                                    <i class="fas fa-graduation-cap mr-3"></i>주요 학력 및 경력
+                                </h4>
+                                <ul class="text-base space-y-2">
+                                    <li>한양대학교 의과대학 졸업</li>
+                                    <li>분당차병원 레지던트/전문의 수료</li>
+                                    <li>CHA 의과학대학교 강남차병원 전임의</li>
+                                    <li>분당차병원 대체의학대학원 대체의학 석사</li>
+                                    <li>前) 청담 린클리닉 원장</li>
+                                    <li>前) 반포 호두의원 대표원장</li>
+                                </ul>
+                            </div>
+
+                            <div class="mt-10 pt-8 border-t border-gray-200">
+                                <h4 class="font-bold text-emerald-teal mb-4 flex items-center">
+                                    <i class="fas fa-users mr-3"></i>학회 활동
+                                </h4>
+                                <ul class="text-base space-y-2">
+                                    <li>용인시의사회 대외정보협력 부회장</li>
+                                    <li>대한비만미용치료학회</li>
+                                    <li>대한미용성형레이저의학회 정회원</li>
+                                    <li>대한스포츠의학회 평생회원</li>
+                                    <li>대한통증학회 정회원</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section class="py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto reveal">
+                    <h2 class="font-eng text-3xl md:text-4xl font-bold tracking-tighter text-deep-navy">Doctor's Philosophy</h2>
+                    <p class="mt-4 text-deep-navy opacity-70 text-lg">이연의원은 세 가지 핵심 원칙을 바탕으로 당신을 만납니다.</p>
+                </div>
+                <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                    <div class="reveal">
+                        <div class="flex items-center justify-center w-16 h-16 mx-auto mb-6 bg-emerald-teal/10 rounded-full">
+                            <i class="fas fa-microscope text-2xl text-emerald-teal"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-deep-navy">근본 원인 탐구</h3>
+                        <p class="mt-2 text-deep-navy opacity-70">단순히 나타난 증상이 아닌, 기능의학적 관점에서 노화와 질병의 근본 원인을 찾아 해결합니다.</p>
+                    </div>
+                    <div class="reveal" style="transition-delay: 150ms;">
+                        <div class="flex items-center justify-center w-16 h-16 mx-auto mb-6 bg-emerald-teal/10 rounded-full">
+                            <i class="fas fa-brain text-2xl text-emerald-teal"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-deep-navy">데이터 기반 진단</h3>
+                        <p class="mt-2 text-deep-navy opacity-70">정밀한 검사와 데이터 분석을 활용하여 개인에게 가장 최적화된 맞춤형 솔루션을 설계합니다.</p>
+                    </div>
+                    <div class="reveal" style="transition-delay: 300ms;">
+                        <div class="flex items-center justify-center w-16 h-16 mx-auto mb-6 bg-emerald-teal/10 rounded-full">
+                            <i class="fas fa-hand-holding-heart text-2xl text-emerald-teal"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-deep-navy">통합적 접근</h3>
+                        <p class="mt-2 text-deep-navy opacity-70">피부, 신체, 내면의 건강이 모두 연결되어 있다는 믿음으로, 통합적인 관점의 치료 계획을 수립합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Media Appearances Section -->
+        <section class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto reveal">
+                    <h2 class="font-eng text-3xl md:text-4xl font-bold tracking-tighter text-deep-navy">Media Appearances</h2>
+                    <p class="mt-4 text-deep-navy opacity-70 text-lg">다양한 방송 매체를 통해 의학 정보를 전달하고 있습니다.</p>
+                </div>
+                <div class="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                    <div class="reveal text-center p-6 bg-gray-50 rounded-2xl">
+                        <i class="fas fa-tv text-3xl text-emerald-teal mb-3"></i>
+                        <h4 class="font-semibold text-deep-navy">생활건강 TV</h4>
+                    </div>
+                    <div class="reveal text-center p-6 bg-gray-50 rounded-2xl" style="transition-delay: 50ms;">
+                        <i class="fas fa-tv text-3xl text-emerald-teal mb-3"></i>
+                        <h4 class="font-semibold text-deep-navy">SBS CNBC</h4>
+                    </div>
+                    <div class="reveal text-center p-6 bg-gray-50 rounded-2xl" style="transition-delay: 100ms;">
+                        <i class="fas fa-tv text-3xl text-emerald-teal mb-3"></i>
+                        <h4 class="font-semibold text-deep-navy">MBN</h4>
+                    </div>
+                    <div class="reveal text-center p-6 bg-gray-50 rounded-2xl" style="transition-delay: 150ms;">
+                        <i class="fas fa-tv text-3xl text-emerald-teal mb-3"></i>
+                        <h4 class="font-semibold text-deep-navy">MBC</h4>
+                    </div>
+                    <div class="reveal text-center p-6 bg-gray-50 rounded-2xl" style="transition-delay: 200ms;">
+                        <i class="fas fa-tv text-3xl text-emerald-teal mb-3"></i>
+                        <h4 class="font-semibold text-deep-navy">채널 A</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Floating Action Buttons Placeholder -->
+    <div id="floating-buttons-placeholder"></div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

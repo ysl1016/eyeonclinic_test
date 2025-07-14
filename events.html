@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트 안내 | EYEON Clinic</title>
+        
+    <!-- Google Fonts: Inter, Manrope, Noto Sans KR, and Nanum Myeongjo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@300;400;500;600;700&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+        
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/dist/output.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        /* 이벤트 카드 스타일 */
+        .promo-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .promo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-[50vh] md:h-[60vh] flex items-center justify-center text-center text-white overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="../images/events.jpg" 
+                     alt="두 연인이 뜻깊은 이벤트를 보내는 장면면" 
+                     class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/50"></div> 
+            </div>
+            <div class="relative z-10 px-6 reveal">
+                <h1 class="text-4xl md:text-6xl font-bold tracking-tighter leading-tight text-white">
+                    이벤트 안내
+                </h1>
+                <p class="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-300">
+                    이연의원에서 준비한 특별한 혜택으로 건강과 아름다움을 동시에 관리하세요.
+                </p>
+            </div>
+        </section>
+
+        <!-- Promotions Content Section -->
+        <section class="py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="bg-white p-8 md:p-12 rounded-2xl shadow-lg reveal">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-bold text-deep-navy">2025년 7월 여름맞이 이벤트</h2>
+                        <p class="mt-4 text-deep-navy opacity-70 max-w-2xl mx-auto">
+                            폭염과 함께 찾아온 7월, 이연의원에서 준비한 쿨한 혜택으로 짙어진 잡티, 푸석한 모발, 늘어난 체중 고민을 해결하세요!
+                        </p>
+                        <div class="mt-8 inline-block bg-emerald-teal text-white font-bold text-lg px-6 py-3 rounded-lg shadow-md">
+                            <i class="fas fa-calendar-alt mr-2"></i>이벤트 기간: 2025년 7월 10일 ~ 7월 24일
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Event cards -->
+                        <div class="promo-card bg-white rounded-xl p-6 shadow-md border-t-4 border-gray-200">
+                            <h3 class="font-bold text-lg text-deep-navy">화이트닝 기본패키지</h3>
+                            <p class="text-sm text-gray-500 mb-4">잡티 없는 맑은 피부</p>
+                            <div class="my-4">
+                                <span class="text-4xl font-bold text-emerald-teal">44.0<span class="text-xl font-medium ml-1">만원</span></span>
+                            </div>
+                            <p class="text-gray-600 flex-grow">레이저토닝 10회 + 색소레이저 1회</p>
+                        </div>
+                        <div class="promo-card bg-white rounded-xl p-6 shadow-md border-t-4 border-gray-200">
+                            <h3 class="font-bold text-lg text-deep-navy">파워풀 화이트닝</h3>
+                            <p class="text-sm text-gray-500 mb-4">기미특화 레이저시술</p>
+                            <div class="my-4">
+                                <span class="text-4xl font-bold text-emerald-teal">77.0<span class="text-xl font-medium ml-1">만원</span></span>
+                            </div>
+                            <p class="text-gray-600 flex-grow">듀얼토닝 6회 + 제네시스 4회</p>
+                        </div>
+                        <div class="promo-card bg-white rounded-xl p-6 shadow-md border-t-4 border-hot-pink">
+                            <h3 class="font-bold text-lg text-deep-navy">하이드로리프팅</h3>
+                            <p class="text-sm text-gray-500 mb-4">주름/탄력/보습 한번에</p>
+                            <div class="my-4">
+                                <span class="text-4xl font-bold text-emerald-teal">16.5<span class="text-xl font-medium ml-1">만원</span></span>
+                            </div>
+                            <p class="text-gray-600 flex-grow">하이드로리프팅 1회 + 주름보톡스 1부위</p>
+                        </div>
+                        <div class="promo-card bg-white rounded-xl p-6 shadow-md border-t-4 border-gray-200">
+                            <h3 class="font-bold text-lg text-deep-navy">슈퍼젯 리프팅 패키지</h3>
+                            <p class="text-sm text-gray-500 mb-4">강력한 V라인 리프팅</p>
+                            <div class="my-4">
+                                <span class="text-4xl font-bold text-emerald-teal">33.0<span class="text-xl font-medium ml-1">만원</span></span>
+                            </div>
+                            <p class="text-gray-600 flex-grow">에어젯 1회 + 슈링크 200샷</p>
+                        </div>
+                        <div class="promo-card bg-white rounded-xl p-6 shadow-md border-t-4 border-hot-pink">
+                            <h3 class="font-bold text-lg text-deep-navy">슈링크 여름맞이 특가</h3>
+                            <p class="text-sm text-gray-500 mb-4">갸름한 턱선 집중 공략</p>
+                            <div class="my-4">
+                                <span class="text-4xl font-bold text-emerald-teal">8.8<span class="text-xl font-medium ml-1">만원</span></span>
+                            </div>
+                            <p class="text-gray-600 flex-grow">슈링크 300샷</p>
+                        </div>
+                        <div class="promo-card bg-white rounded-xl p-6 shadow-md border-t-4 border-gray-200">
+                            <h3 class="font-bold text-lg text-deep-navy">프락셀 패키지</h3>
+                            <p class="text-sm text-gray-500 mb-4">모공/흉터 개선</p>
+                            <div class="my-4">
+                                <span class="text-4xl font-bold text-emerald-teal">44.0<span class="text-xl font-medium ml-1">만원</span></span>
+                            </div>
+                            <p class="text-gray-600 flex-grow">프락셀 2회 + 줄기재생앰플 2회</p>
+                        </div>
+                        <div class="promo-card bg-white rounded-xl p-6 shadow-md border-t-4 border-hot-pink">
+                            <h3 class="font-bold text-lg text-deep-navy">여드름 아트레이저</h3>
+                            <p class="text-sm text-gray-500 mb-4">염증성 여드름 치료</p>
+                            <div class="my-4">
+                                <span class="text-4xl font-bold text-emerald-teal">38.5<span class="text-xl font-medium ml-1">만원</span></span>
+                            </div>
+                            <p class="text-gray-600 flex-grow">아트레이저 4회</p>
+                        </div>
+                        <div class="promo-card bg-white rounded-xl p-6 shadow-md border-t-4 border-gray-200">
+                            <h3 class="font-bold text-lg text-deep-navy">뉴-뱅퀴시</h3>
+                            <p class="text-sm text-gray-500 mb-4">통증없이 체지방만 쏙!</p>
+                            <div class="my-4">
+                                <span class="text-4xl font-bold text-emerald-teal">28.6<span class="text-xl font-medium ml-1">만원</span></span>
+                            </div>
+                            <p class="text-gray-600 flex-grow">복부 4회 (비만약 1개월 처방 무료)</p>
+                        </div>
+                        <div class="promo-card bg-white rounded-xl p-6 shadow-md border-t-4 border-gray-200">
+                            <h3 class="font-bold text-lg text-deep-navy">두피 메조테라피</h3>
+                            <p class="text-sm text-gray-500 mb-4">모발을 풍성하게</p>
+                            <div class="my-4">
+                                <span class="text-4xl font-bold text-emerald-teal">44.0<span class="text-xl font-medium ml-1">만원</span></span>
+                            </div>
+                            <p class="text-gray-600 flex-grow">두피시술 10회 (탈모약 처방 별도)</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-12 text-center text-sm text-gray-500 border-t pt-8">
+                        <p><i class="fas fa-exclamation-circle mr-1 text-emerald-teal"></i> 본 이벤트는 기간 한정 이벤트로 1인 1회 등록 가능하며, 인원 초과 시 공지 없이 조기 마감될 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Floating Action Buttons Placeholder -->
+    <div id="floating-buttons-placeholder"></div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
